@@ -1,6 +1,6 @@
 # eCommerce Application using OPENAPI Generator
 
-- The repository contains a spring boot application that has been containerized using docker and built from an open api generator available at `./src/main/resource.api.yaml`.
+- The repository contains a spring boot application that has been containerized using docker and built from an open api generator available at `./openapi/api.yaml`.
 - The application also generates [Swagger API](http://localhost:8080/swagger-ui/index.html) endpoints for easy testing.
 
 ## About the Application
@@ -31,5 +31,5 @@
 - Open and run POSTMAN API
 - In the main repository directory, navigate to `postman collection -> collection`.
 - This folder contains 4 JSON files. Each file must be uploaded to POSTMAN API via `settings -> data -> import Data -> Import Data file`.
-- The collection now give you access to all the endpoints available in the application. Requests may now be sent and recieved.
+- The collection now give you access to all the endpoints available in the application. Requests may now be sent and received.
 

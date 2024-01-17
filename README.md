@@ -18,8 +18,17 @@
 - [Postman API](https://www.postman.com/downloads/)
 - A Web Browser ( [Google Chrome](https://www.google.com/chrome/) or [FireFox](https://www.mozilla.org/en-US/firefox/new/))
 - [Java](https://www.oracle.com/java/technologies/downloads/) 17 at minimum installed on your local machine.
+- [Git](https://www.git-scm.com/downloads)
+  
+## Setting Up - CLONE THE PROJECT
+- Open a terminal or command prompt (Powershell on Windows and Terminal or linux or macOs)
+- Navigate to the directory you want to clone the project. e.g. `cd path/to/your/directory`
+- Run `git clone git@github.com:msackey-IW/springboot-docker-openapi-generator.git`
+- Run cd "openapi`
+- Run `docker-compose up`. This will create and run the eCommerce springboot application.
+- All available endpoints are available on [swagger](http://localhost:8080/swagger-ui/index.html)
 
-## Setting Up
+## Setting Up - DOWNLOAD THE PROJECT
 - Open and run Docker on your machine.
 - Download the application [here](https://github.com/IntegrationWorks/springboot-docker-applications) by navigating to `code -> download ZIP`.
 - Unzip the folder and open the extracted files in your downloaded IDE(Intellij or VSCode).

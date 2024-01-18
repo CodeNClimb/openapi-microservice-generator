@@ -1,10 +1,11 @@
 # eCommerce Application using OPENAPI Generator
 
-- The repository contains a spring boot application that has been containerized using docker and built from an open api generator available at `./openapi/api.yaml`.
+- The repository contains a spring boot application that has been containerized using docker and built from the open api generator available at `./openapi/api.yaml`.
 - The application also generates [Swagger API](http://localhost:8080/swagger-ui/index.html) endpoints for easy testing.
 
 ## About the Application
-- This application is mimics the world of eCommerce. This means users can create products and wirte reviews for them.
+- This application mimics the world of eCommerce. It allows users to create user accounts, add products to the database, attach a product category to each product and write reviews for products availabe in the database.
+- The endpoints 
 - Authentication
   - This application uses basic authentication.
   - All endpoints outside `/register` must be authenticated. However, ordinary users may not be access `HTTP DELETE` endpoints as these are reserved for admin users only.
@@ -34,7 +35,7 @@
 - Unzip the folder and open the extracted files in your downloaded IDE(Intellij or VSCode).
 - In your IDE terminal, navigate to the eCommerce folder using the command `cd openapi`.
 - Run `docker-compose up`. This will create and run the eCommerce springboot application.
-- All available endpoints are available on [swagger](http://localhost:8080/swagger-ui/index.html)
+- All available endpoints are available on [swagger](http://localhost:8080/swagger-ui/index.html).
 
 ## Testing the Endpoints
 - Open and run POSTMAN API

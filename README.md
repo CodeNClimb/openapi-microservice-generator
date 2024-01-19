@@ -50,5 +50,5 @@
 - In the main repository directory, navigate to `postman`
 - The folder contains 4 JSON files. Each file must be uploaded to POSTMAN API via `settings -> data -> import Data -> Import Data file`.
 - The collection now give you access to all the endpoints available in the application. 
-- Requests may now be sent and received.
+- Any valid.
 
